@@ -14,17 +14,9 @@
         <module name="discovery-service" />
         <module name="billing-service" />
       </profile>
-      <profile name="Annotation profile for chatbot-rag" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="chatbot-rag" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chatbot-rag" target="17" />
       <module name="emsi-chatbot-rag" target="17" />
       <module name="order-service" target="17" />
     </bytecodeTargetLevel>
