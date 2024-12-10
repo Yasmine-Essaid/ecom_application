@@ -13,5 +13,4 @@ public interface CustomerRestClient {
 
     @GetMapping("/api/customers")
     PagedModel<Customer> getAllCustomers();
-
 }
